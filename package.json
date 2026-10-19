@@ -1,0 +1,17 @@
+{
+  "name": "frontend-m17",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "less": "lessc ./src/styles/main.less  ./build/styles/main.css",
+    "less:watch": "less-watch-compiler ./src/styles ./build/styles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "less-watch-compiler": "^1.19.9"
+  }
+}
